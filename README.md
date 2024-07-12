@@ -1,20 +1,13 @@
 # chess_cli
 
-[![Package Version](https://img.shields.io/hexpm/v/chess_cli)](https://hex.pm/packages/chess_cli)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/chess_cli/)
+## Installation and Running
+To install and run the program you need to ensure you have Gleam installed on your system. After which you can clone this repo enter the repo folder and type `gleam run` to run the game.
 
-```sh
-gleam add chess_cli
-```
-```gleam
-import chess_cli
-
-pub fn main() {
-  // TODO: An example of the project in use
-}
-```
-
-Further documentation can be found at <https://hexdocs.pm/chess_cli>.
+### Linux, MacOS, and Windows
+1. Install Gleam and Git
+2. Clone Repo `git clone`
+3. Enter Directory `cd chess_cli`
+4. Run Program `gleam run`
 
 ## Development
 
