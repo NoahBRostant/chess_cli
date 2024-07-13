@@ -5,6 +5,8 @@ import comp/menu
 import comp/tp_game
 import comp/sp_game
 
+// Description: This is an app for me to learn the Gleam language. it is a Chess game built within the terminal utilising Gleam/Erlang on Beam.
+
 pub fn main() {
   case menu.start() {
     "start-game" -> start_game()
