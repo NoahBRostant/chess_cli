@@ -1,7 +1,7 @@
 <p align="center">
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github.com/NoahBRostant/chess_cli/blob/dev/img/chess_cli_logo_white.png?raw=true">
-        <source media="(prefers-colorscheme: light)" srcset="https://github.com/NoahBRostant/chess_cli/blob/dev/img/chess_cli_logo_black.png?raw=true">
+        <source media="(prefers-color-scheme: light)" srcset="https://github.com/NoahBRostant/chess_cli/blob/dev/img/chess_cli_logo_black.png?raw=true">
         <img alt="Chess_CLI">
     </picture>
 </p>
