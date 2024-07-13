@@ -4,6 +4,8 @@
         <source media="(prefers-color-scheme: light)" srcset="https://github.com/NoahBRostant/chess_cli/blob/dev/img/chess_cli_logo_black.png?raw=true">
         <img alt="Chess_CLI">
     </picture>
+    <img alt="Static Badge" src="https://img.shields.io/badge/Gleam-%23ffaff3">
+
 </p>
 
 
