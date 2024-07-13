@@ -41,9 +41,9 @@ fn cell_maths(pos, x, y, i) {
     7 -> y + 1
     other -> other
   }
-  let return = case pos {
+  case pos {
     [first, ..rest] -> cell_maths(rest, x, y, i+1)
-    [[a, b]] if a == x && b == y -> list.append(white_pieces[i])
+    [[a, b]] if a == x && b == y -> list.append(white_pieces(i))
 
     other -> []
   }
