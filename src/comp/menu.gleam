@@ -1,5 +1,5 @@
-import gleam/io
 import gleam/erlang
+import gleam/io
 
 pub fn start() -> String {
   title()
@@ -25,7 +25,8 @@ fn err_option_invalid() {
 }
 
 pub fn title() {
-  io.println("
+  io.println(
+    "
 
           CCCCCCCCCCCCChhhhhhh                                                                                            CCCCCCCCCCCCCLLLLLLLLLLL             IIIIIIIIII
        CCC::::::::::::Ch:::::h                                                                                         CCC::::::::::::CL:::::::::L             I::::::::I
@@ -43,7 +44,8 @@ pub fn title() {
      CC:::::::::::::::C h:::::h     h:::::h e::::::::eeeeeeee  s::::::::::::::s s::::::::::::::s                     CC:::::::::::::::CL::::::::::::::::::::::LI::::::::I
        CCC::::::::::::C h:::::h     h:::::h  ee:::::::::::::e   s:::::::::::ss   s:::::::::::ss                        CCC::::::::::::CL::::::::::::::::::::::LI::::::::I
           CCCCCCCCCCCCC hhhhhhh     hhhhhhh    eeeeeeeeeeeeee    sssssssssss      sssssssssss                             CCCCCCCCCCCCCLLLLLLLLLLLLLLLLLLLLLLLLIIIIIIIIII
-")
+",
+  )
 }
 
 fn menu_options() {

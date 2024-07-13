@@ -1,9 +1,9 @@
-import gleam/io
-import gleam/erlang
-import gleam/string
 import comp/menu
-import comp/tp_game
 import comp/sp_game
+import comp/tp_game
+import gleam/erlang
+import gleam/io
+import gleam/string
 
 // Description: This is an app for me to learn the Gleam language. it is a Chess game built within the terminal utilising Gleam/Erlang on Beam.
 
@@ -56,14 +56,14 @@ fn tp_start() {
 
 fn win_state(name: String) {
   menu.title()
-  io.println("Congratulations "<>name<>" on winning")
+  io.println("Congratulations " <> name <> " on winning")
   erlang.get_line("Press Enter to continue: ")
   main()
 }
 
 fn lose_state(name: String) {
   menu.title()
-  io.println("Oh No! better luck next time "<>name)
+  io.println("Oh No! better luck next time " <> name)
   erlang.get_line("Press Enter to continue: ")
   main()
 }
