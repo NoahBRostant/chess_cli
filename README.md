@@ -10,6 +10,11 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/Gleam-%23ffaff3">
     <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/NoahBRostant/chess_cli/test.yml">
 </p>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/blob/6.x/svgs/solid/triangle-exclamation.svg">
+    Warning: In Active development all features have noy been implemented yet!
+    <img src="https://raw.githubusercontent.com/FontAwesome/Font-Awesome/blob/6.x/svgs/solid/triangle-exclamation.svg">
+</p>
 Experience the straightforward charm of your chess terminal game, developed in the Gleam language. This no-frills application offers a clean and functional interface for playing chess right in your terminal. Designed with simplicity in mind, it ensures smooth and reliable gameplay, making it easy to focus on strategy without distractions. Whether you're playing against a basic AI or a friend, this game provides a solid and dependable chess experience, leveraging Gleam's type-safe reliability to keep things running smoothly.
 
 
