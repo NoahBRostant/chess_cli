@@ -9,10 +9,11 @@ import gleam/string
 
 pub fn main() {
   case menu.start() {
-    "start-game" -> start_game()
-    "exit-game" -> exit_game()
+    Ok("start-game") -> start_game()
+    Ok("exit-game") -> exit_game()
 
-    _ -> exit_game_with_err()
+    Ok(_) -> exit_game_with_err()
+    Error(_) -> exit_game_with_err()
   }
 }
 

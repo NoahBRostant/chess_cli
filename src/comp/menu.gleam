@@ -1,7 +1,7 @@
 import gleam/erlang
 import gleam/io
 
-pub fn start() -> String {
+pub fn start() -> Result(String, a) {
   title()
   io.println("Main Menu:")
   io.println("1 Start New Game")
@@ -61,11 +61,11 @@ fn menu_options() {
 }
 
 fn start_game() {
-  "start-game"
+  Ok("start-game")
 }
 
 fn exit_game() {
-  "exit-game"
+  Ok("exit-game")
 }
 
 fn menu_credits() {
